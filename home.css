@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #f2f4f7;
+}
+.sub1{
+    width: 55%;
+    height: 100vh;
+    /* background-color: antiquewhite; */
+    padding-left: 220px;
+    
+}
+.sub2{
+    width: 45%;
+    height: 100vh;
+    /* background-color: rgb(147, 233, 160); */
+    
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    width: 290px;
+    margin-top: 200px;
+}
+.xyz{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 23px;
+    margin-top: -15px;
+    margin-right: 50px;
+}
+
+.form-div{
+    width: 400px;
+    padding-bottom: 24px;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    margin-top: 150px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+input{
+    width: 90%;
+    height: 52px;
+    margin-top: 17px;
+    border-radius: 6px;
+     
+}
+
+input[type='submit']{
+    background-color: #0766ff;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+input[type='submit']:hover{
+    background-color: #0766ffef;
+
+}
+
+input[type='text'],input[type='password']{
+
+border: 1px solid rgb(228, 225, 225);
+font-size: 17px;
+padding-left: 15px;
+ 
+}::placeholder{
+    color: rgb(180, 177, 177);
+}
+
+
+
+input[type='text']:focus,input[type='password']:focus{
+
+    outline: 1px solid #3a85ffef;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+
+.form-div a{
+    text-decoration: none;
+    color: #0766ff;
+    font-size: 15px;   
+}
+
+hr{
+ border: none;
+ border-top: 1px solid rgb(231, 217, 217);
+ width: 90%;
+ margin: auto;
+ margin-top: 20px;
+}
+.btn{
+    width: 50%;
+    height: 53px;
+    background-color: #43b72a;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+     border-radius: 6px;
+     margin-top: 20px;
+     cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #35a31c;
+  
+}
+
+.sub2 p{
+font-size: 15px;
+ 
+width: 400px;
+text-align: center;
+margin-top: 20px;
+}
+.b{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.b:hover{
+    text-decoration: underline;
+}
